@@ -58,7 +58,7 @@
 }
 
 .gpt3__header-content__input button {
-    flex: 0.6;
+    flex: 0.3;
     width: 100%;
     min-height: 50px;
     font-family: var(--font-family);
@@ -73,7 +73,9 @@
     outline: none;
 
     border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .gpt3__header-content__people {
@@ -106,6 +108,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -2rem;
 }
 
 .gpt3__header-image img {

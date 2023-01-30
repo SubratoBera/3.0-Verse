@@ -11,7 +11,7 @@ const Article = ({ imgUrl, date, text }) => (
         <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Read Full Article</p>
+      <button type="button"><a href="#coursePage">Let&apos;s Learn</a></button>
     </div>
   </div>
 );

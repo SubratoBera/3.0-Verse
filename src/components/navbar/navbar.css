@@ -6,6 +6,11 @@
     padding: 2rem 6rem;
 }
 
+.logo{
+    color: #fff;
+    font-family: var(--font-family);
+}
+
 .gpt3__navbar-links {
     flex: 1;
     display: flex;
